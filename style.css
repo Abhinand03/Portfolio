@@ -266,19 +266,18 @@ body{
     top: 300px;
   }
   .ab-me{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: wheat;
     font-size: 59px;
 
   }
   .ab-para{
-    width: 500px;
+    width: 632px;
     color: white;
     position: relative;
-    left: 123px;
-    top: 99px;
-    font-size: 18px;
+    left: 165px;
+    top: 147px;
+    font-size: 19px;
     text-align: justify;
 
   }
@@ -286,6 +285,122 @@ body{
     width: 303px;
     position: relative;
     top: 99px;
-    left: 190px;
+    left: 170px;
 
+  }
+  .pro-img2{
+    border-radius: 30px;
+  }
+
+  @media(max-width:1400px){
+
+    .ab-para{
+      width: 500px;
+      color: white;
+      position: relative;
+      left: 100px;
+      top: 147px;
+      font-size: 17px;
+      text-align: justify;
+  
+    }
+    .ab-img{
+      width: 250px;
+      position: relative;
+      top: 99px;
+      left: 200px;
+  
+    }
+    .cont{
+      background-color: #293645;
+      width: 80%;
+  }
+  .ab-me{
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    font-size: 59px;
+    position: relative;
+    top: 35px;
+
+  }
+
+
+  }
+  @media(max-width:1015px){
+
+    .ab-para{
+      width: 400px;
+      color: white;
+      position: relative;
+      left: 50px;
+      top: 147px;
+      font-size: 17px;
+      text-align: justify;
+  
+    }
+    .ab-img{
+      width: 250px;
+      position: relative;
+      left: 250px;
+      top: 105px;
+      
+    }
+    .cont{
+      background-color: #293645;
+      width: 74%;
+  }
+  .ab-me{
+    text-align: center;
+    color: wheat;
+    font-size: 49px;
+    position: relative;
+    top: 45px;
+
+  }
+
+
+  }
+
+  @media(max-width:840px){
+
+    .ab-para{
+      width: 350px;
+      color: white;
+      position: relative;
+      left: 50px;
+      top: 147px;
+      font-size: 16px;
+      text-align: justify;
+  
+    }
+    .ab-img{
+      width: 201px;
+      position: relative;
+      top: 138px;
+      left: 173px;
+      
+    }
+    .cont{
+      background-color: #293645;
+      width: 74%;
+  }
+  .ab-me{
+   text-align: center;
+    color: wheat;
+    font-size: 39px;
+
+  }
+
+
+  }
+
+
+
+
+
+  #Skills{
+
+    position: relative;
+    top: 400px;
   }

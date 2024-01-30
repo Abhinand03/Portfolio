@@ -52,7 +52,7 @@ setInterval(changeContent, 2000);
 
 ScrollReveal({
 
-  reset: false,
+  reset: true,
   distance:'60px',
   duration:2500,
   delay:400
@@ -60,4 +60,5 @@ ScrollReveal({
 ScrollReveal().reveal('.intro', { delay: 500, origin: 'left', enter: 'bottom' });
 ScrollReveal().reveal('.profile-div', { delay: 500, origin: 'right', enter: 'bottom' });
 ScrollReveal().reveal('.ab-img', { delay: 500, origin: 'bottom', enter: 'bottom' });
+ScrollReveal().reveal('.ab-para', { delay: 500, origin: 'top', enter: 'bottom' });
 
