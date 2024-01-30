@@ -1,0 +1,291 @@
+body{
+    background-color: #293645;
+}
+
+.nav-b{
+    background-color: #1f2833;
+
+}
+.logo{
+    width: 115px;
+    height: 50px;
+    margin-left: 34px;
+}    
+.nav2{
+    color: white;
+}
+.nav-btn{
+    background: cadetblue;
+}
+
+.nav-ul{
+    margin-left: 1039px
+}
+*{font-family: 'Playpen Sans', cursive;
+    font-family: 'Rubik Burned', system-ui;
+    font-family: 'Salsa', cursive;
+
+}
+.ho-h{
+    font-size: 20px;
+    margin-right: 0px;
+    position: relative;
+    right: 20px;
+    color: aqua;
+
+}
+.cont{
+    background-color: #293645;
+    width: 99%;
+}
+.nqv-1{
+    background-color: red;
+}
+.na-main{
+    background-color: #293645;
+    transition: 1s;
+    
+
+}
+.bg-change{
+    background-color: black;
+    transition: 1s;
+
+    
+    /* box-shadow: 0px 25px 20px -20px aqua; */
+}
+.hh{
+    color: yellow;
+}
+
+
+
+/* side bar content change */
+@media(max-width: 991px)
+{
+    .sidebar
+    {
+        /* From https://css.glass */
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 16px;
+      box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+      backdrop-filter: blur(8.5px);
+      -webkit-backdrop-filter: blur(8.5px);
+      border: 1px solid rgba(255, 255, 255, 0.48);
+        
+    }
+    .hh{
+        color: red;
+    }
+    .ho-h{
+        margin-left: 10px;
+    }
+    
+
+}
+.name-h1{
+  font-size: 55px;
+}
+
+.intro{
+  position: relative;
+  left: 200px;
+  top: 150px;
+
+}
+.change-cont{
+  font-size: 27px;
+}
+.intro-p{
+  color: white;
+  font-size: 20px;
+  
+}
+.profile-div{
+  width: 330px;
+  position: relative;
+  left: 100px;
+  top: 65px;
+}
+
+@media(max-width: 1091px){
+
+
+  .profile-div {
+    width: 245px;
+    position: relative;
+    left: 100px;
+    top: 113px;
+  }
+    .intro{
+      position: relative;
+      left: 60px;
+      top: 150px;
+
+    
+          
+      
+        }
+      .name-h1
+      {
+        font-size: 43px;
+      }
+      .change-cont1{
+        font-size: 28px;
+        
+      }
+      .intro-p{
+        color: white;
+        font-size: 16px;
+      }
+        
+    
+    
+}
+
+.img1{
+  
+}
+
+
+@media(max-width:685px)
+{
+  .profile-div {
+    width: 200px;
+    position: relative;
+    left: 75px;
+    top: 113px;
+  }
+  .intro{
+    position: relative;
+    left: 20px;
+    top: 150px;
+
+  
+        
+    
+      }
+    .name-h1
+    {
+      font-size: 36px;
+    }
+    .change-cont1{
+      font-size: 24px;
+      
+    }
+    .intro-p{
+      color: white;
+      font-size: 14px;
+    }
+}
+
+
+
+@media(max-width:580px)
+{
+  .profile-div {
+    width: 180px;
+    position: relative;
+    left: 130px;
+    top: -223px;
+  }
+  .intro{
+    position: relative;
+    left: 20px;
+    top: 350px;
+
+  
+        
+    
+      }
+    .name-h1
+    {
+      font-size: 45px;
+    }
+    .change-cont1{
+      font-size: 30px;
+      
+    }
+    .intro-p{
+      color: white;
+      font-size: 18px;
+    }
+}
+
+@media(max-width:378px)
+{
+  .profile-div {
+    width: 180px;
+    position: relative;
+    left: 100px;
+    top: -229px;
+  }
+  
+}
+
+
+
+.name-h11{
+    font-size: 20px;
+    color: red;
+  }
+
+
+
+#slidingElement {
+    overflow: hidden;
+    transition: height 0.5s ease-in-out, opacity 0.5s ease-in-out; /* Add opacity transition */
+  }
+
+  #content {
+    transition: opacity 0.5s ease-in-out; /* Add opacity transition for content */
+  }
+  #home{
+    margin-top: 105px;
+    width: 100%;
+
+  }
+  
+ 
+
+  
+ 
+  
+  .home-page{
+
+  }
+
+  
+
+
+
+  /* about section */
+
+  #About{
+    position: relative;
+    top: 300px;
+  }
+  .ab-me{
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    font-size: 59px;
+
+  }
+  .ab-para{
+    width: 500px;
+    color: white;
+    position: relative;
+    left: 123px;
+    top: 99px;
+    font-size: 18px;
+    text-align: justify;
+
+  }
+  .ab-img{
+    width: 303px;
+    position: relative;
+    top: 99px;
+    left: 190px;
+
+  }
