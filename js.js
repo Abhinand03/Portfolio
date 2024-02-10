@@ -14,6 +14,19 @@ function colorChange()
     }
 }
 window.addEventListener('scroll',colorChange)
+
+res=window.innerHeight
+re=window.scrollY
+console.log(res);
+
+
+function clo(){
+
+}
+
+
+
+
 //------------------**********----------------------
 
 //contents chnage funtion for intro
@@ -59,6 +72,16 @@ ScrollReveal({
 })
 ScrollReveal().reveal('.intro', { delay: 500, origin: 'left', enter: 'bottom' });
 ScrollReveal().reveal('.profile-div', { delay: 500, origin: 'right', enter: 'bottom' });
-ScrollReveal().reveal('.ab-img', { delay: 500, origin: 'bottom', enter: 'bottom' });
-ScrollReveal().reveal('.ab-para', { delay: 500, origin: 'top', enter: 'bottom' });
+ScrollReveal().reveal('.ab-img', { delay: 500, origin: 'top', enter: 'bottom' });
+ScrollReveal().reveal('.ab-para', { delay: 500, origin: 'bottom', enter: 'bottom' });
+ScrollReveal().reveal('.ab-me', { delay: 500, origin: 'top', enter: 'bottom' });
+ScrollReveal().reveal('.left-con1', { delay: 500, origin: 'left', enter: 'bottom' });
+ScrollReveal().reveal('.right-cont', { delay: 500, origin: 'right', enter: 'bottom' });
+// ScrollReveal().reveal('.skill-div3', { delay: 500, origin: 'right', enter: 'bottom' });
+
+
+
+
+
+
 
